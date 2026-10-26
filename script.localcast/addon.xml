@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.localcast" name="LocalCast" version="1.0.0" provider-name="Stefan Pledl">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+  </requires>
+  <extension point="xbmc.python.script" library="default.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="kodi.context.item">
+    <menu id="kodi.core.main">
+      <item library="context.py">
+        <label>32001</label>
+        <visible>!ListItem.IsFolder + !String.IsEmpty(ListItem.FileNameAndPath) + System.Platform.Android</visible>
+      </item>
+    </menu>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Cast what Kodi plays to your TV through LocalCast</summary>
+    <summary lang="de_DE">Senden Sie, was Kodi abspielt, über LocalCast an Ihren Fernseher</summary>
+    <summary lang="fr_FR">Diffusez ce que Kodi lit sur votre téléviseur via LocalCast</summary>
+    <summary lang="es_ES">Envía lo que Kodi reproduce a tu televisor a través de LocalCast</summary>
+    <summary lang="it_IT">Trasmetti ciò che Kodi riproduce al tuo televisore tramite LocalCast</summary>
+    <summary lang="pt_BR">Transmita o que o Kodi reproduz para a sua TV através do LocalCast</summary>
+    <description lang="en_GB">Hands videos from Kodi on Android to the LocalCast app, which casts them to Chromecast, DLNA and Smart TVs, Roku, Fire TV, AirPlay and more. Turn on automatic casting so every video Kodi plays opens in LocalCast, or use the context menu entry "Cast with LocalCast" on a single item. Requires the LocalCast app from Google Play.</description>
+    <description lang="de_DE">Übergibt Videos aus Kodi auf Android an die LocalCast-App, die sie an Chromecast, DLNA- und Smart-TVs, Roku, Fire TV, AirPlay und mehr sendet. Schalten Sie das automatische Senden ein, damit jedes Video, das Kodi abspielt, in LocalCast geöffnet wird, oder nutzen Sie den Kontextmenüeintrag „Mit LocalCast senden“ für ein einzelnes Element. Benötigt die LocalCast-App aus Google Play.</description>
+    <description lang="fr_FR">Transmet les vidéos de Kodi sur Android à l'application LocalCast, qui les diffuse vers Chromecast, les téléviseurs DLNA et connectés, Roku, Fire TV, AirPlay et plus encore. Activez la diffusion automatique pour que chaque vidéo lue par Kodi s'ouvre dans LocalCast, ou utilisez l'entrée du menu contextuel « Diffuser avec LocalCast » sur un seul élément. Nécessite l'application LocalCast depuis Google Play.</description>
+    <description lang="es_ES">Entrega los vídeos de Kodi en Android a la aplicación LocalCast, que los envía a Chromecast, televisores DLNA y Smart TV, Roku, Fire TV, AirPlay y más. Activa el envío automático para que cada vídeo que Kodi reproduce se abra en LocalCast, o usa la entrada del menú contextual «Enviar con LocalCast» en un solo elemento. Requiere la aplicación LocalCast de Google Play.</description>
+    <description lang="it_IT">Passa i video da Kodi su Android all'app LocalCast, che li trasmette a Chromecast, TV DLNA e Smart TV, Roku, Fire TV, AirPlay e altro. Attiva la trasmissione automatica così ogni video riprodotto da Kodi si apre in LocalCast, oppure usa la voce del menu contestuale "Trasmetti con LocalCast" su un singolo elemento. Richiede l'app LocalCast da Google Play.</description>
+    <description lang="pt_BR">Entrega os vídeos do Kodi no Android ao aplicativo LocalCast, que os transmite para Chromecast, TVs DLNA e Smart TVs, Roku, Fire TV, AirPlay e mais. Ative a transmissão automática para que todo vídeo que o Kodi reproduz abra no LocalCast, ou use a entrada do menu de contexto "Transmitir com LocalCast" em um único item. Requer o aplicativo LocalCast da Google Play.</description>
+    <disclaimer lang="en_GB">Android only. Needs the LocalCast app installed on the same device.</disclaimer>
+    <disclaimer lang="de_DE">Nur Android. Benötigt die auf demselben Gerät installierte LocalCast-App.</disclaimer>
+    <disclaimer lang="fr_FR">Android uniquement. Nécessite l'application LocalCast installée sur le même appareil.</disclaimer>
+    <disclaimer lang="es_ES">Solo Android. Necesita la aplicación LocalCast instalada en el mismo dispositivo.</disclaimer>
+    <disclaimer lang="it_IT">Solo Android. Richiede l'app LocalCast installata sullo stesso dispositivo.</disclaimer>
+    <disclaimer lang="pt_BR">Somente Android. Precisa do aplicativo LocalCast instalado no mesmo dispositivo.</disclaimer>
+    <platform>android</platform>
+    <license>GPL-3.0-only</license>
+    <source>https://github.com/stefanpledl/localcast_kodi</source>
+    <website>https://localcast.app/kodi</website>
+    <forum>https://localcast.app/kodi</forum>
+    <news>1.0.0 (2026-10-26)
+- First release: automatic casting toggle, context menu "Cast with LocalCast"</news>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>

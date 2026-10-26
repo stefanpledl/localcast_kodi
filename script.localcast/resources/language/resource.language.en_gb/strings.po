@@ -1,0 +1,139 @@
+# Kodi Media Center language file
+# Addon Name: LocalCast
+# Addon id: script.localcast
+# Addon Provider: Stefan Pledl
+msgid ""
+msgstr ""
+"Project-Id-Version: LocalCast\n"
+"Report-Msgid-Bugs-To: https://localcast.app/kodi\n"
+"POT-Creation-Date: 2026-10-26 00:00+0000\n"
+"PO-Revision-Date: 2026-10-26 00:00+0000\n"
+"Last-Translator: Stefan Pledl\n"
+"Language-Team: English\n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+# Context menu
+
+msgctxt "#32001"
+msgid "Cast with LocalCast"
+msgstr ""
+
+# Settings
+
+msgctxt "#32010"
+msgid "General"
+msgstr ""
+
+msgctxt "#32011"
+msgid "Automatic casting writes a playercorefactory.xml into your Kodi profile so that every video Kodi plays opens in LocalCast."
+msgstr ""
+
+msgctxt "#32012"
+msgid "Automatic casting"
+msgstr ""
+
+msgctxt "#32013"
+msgid "Enable automatic casting"
+msgstr ""
+
+msgctxt "#32014"
+msgid "Every video Kodi plays opens in LocalCast. Kodi must be restarted afterwards."
+msgstr ""
+
+msgctxt "#32015"
+msgid "Disable automatic casting"
+msgstr ""
+
+msgctxt "#32016"
+msgid "Removes the playercorefactory.xml written by LocalCast. Kodi must be restarted afterwards."
+msgstr ""
+
+msgctxt "#32017"
+msgid "Status"
+msgstr ""
+
+msgctxt "#32018"
+msgid "Shows whether automatic casting is on and where the configuration file lives."
+msgstr ""
+
+msgctxt "#32019"
+msgid "Help"
+msgstr ""
+
+msgctxt "#32020"
+msgid "How the add-on works and what it needs."
+msgstr ""
+
+# Dialogs and notifications
+
+msgctxt "#32031"
+msgid "A playercorefactory.xml that LocalCast did not write already exists. Replace it? A backup (.localcast.bak) is kept."
+msgstr ""
+
+msgctxt "#32032"
+msgid "Done. Kodi must be restarted for the change to apply. Close Kodi now? (Start it again from your launcher.)"
+msgstr ""
+
+msgctxt "#32033"
+msgid "Restart Kodi to apply"
+msgstr ""
+
+msgctxt "#32034"
+msgid "Automatic casting is already off"
+msgstr ""
+
+msgctxt "#32035"
+msgid "This playercorefactory.xml was not written by LocalCast; delete it with Kodi's file manager if you want it gone"
+msgstr ""
+
+msgctxt "#32036"
+msgid "A backup of the previous playercorefactory.xml (.localcast.bak) exists. Restore it?"
+msgstr ""
+
+msgctxt "#32037"
+msgid "Automatic casting is on: every video Kodi plays opens in LocalCast."
+msgstr ""
+
+msgctxt "#32038"
+msgid "Automatic casting is off: Kodi plays videos itself."
+msgstr ""
+
+msgctxt "#32039"
+msgid "A playercorefactory.xml that LocalCast did not write is in place. Automatic casting is not active."
+msgstr ""
+
+msgctxt "#32040"
+msgid "File: %s"
+msgstr ""
+
+msgctxt "#32041"
+msgid "Automatic casting: every video Kodi plays opens in LocalCast, which casts it to your TV. Turn it on in the add-on settings; Kodi must be restarted once.[CR][CR]Context menu: open the context menu on a single video and choose \"Cast with LocalCast\" to send just that item.[CR][CR]Streams from Kodi add-ons (plugin://) can only be cast in automatic mode, because Kodi resolves them only while playing them itself.[CR][CR]Requires the LocalCast app from Google Play.[CR][CR]More at localcast.app/kodi"
+msgstr ""
+
+msgctxt "#32042"
+msgid "Android only"
+msgstr ""
+
+msgctxt "#32043"
+msgid "Nothing to cast"
+msgstr ""
+
+msgctxt "#32044"
+msgid "This item comes from a Kodi add-on. Kodi only resolves such streams when it plays them itself, so turn on automatic casting (LocalCast add-on → Enable) to cast it."
+msgstr ""
+
+msgctxt "#32045"
+msgid "Sent to LocalCast"
+msgstr ""
+
+msgctxt "#32046"
+msgid "The LocalCast add-on ran into an error (%s). Details are in the Kodi log."
+msgstr ""
+
+msgctxt "#32047"
+msgid "Backup restored"
+msgstr ""

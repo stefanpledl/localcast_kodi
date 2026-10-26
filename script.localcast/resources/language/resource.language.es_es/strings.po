@@ -1,0 +1,139 @@
+# Kodi Media Center language file
+# Addon Name: LocalCast
+# Addon id: script.localcast
+# Addon Provider: Stefan Pledl
+msgid ""
+msgstr ""
+"Project-Id-Version: LocalCast\n"
+"Report-Msgid-Bugs-To: https://localcast.app/kodi\n"
+"POT-Creation-Date: 2026-10-26 00:00+0000\n"
+"PO-Revision-Date: 2026-10-26 00:00+0000\n"
+"Last-Translator: Stefan Pledl\n"
+"Language-Team: Spanish\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+# Context menu
+
+msgctxt "#32001"
+msgid "Cast with LocalCast"
+msgstr "Enviar con LocalCast"
+
+# Settings
+
+msgctxt "#32010"
+msgid "General"
+msgstr "General"
+
+msgctxt "#32011"
+msgid "Automatic casting writes a playercorefactory.xml into your Kodi profile so that every video Kodi plays opens in LocalCast."
+msgstr "El envío automático escribe un archivo playercorefactory.xml en tu perfil de Kodi para que cada vídeo que Kodi reproduce se abra en LocalCast."
+
+msgctxt "#32012"
+msgid "Automatic casting"
+msgstr "Envío automático"
+
+msgctxt "#32013"
+msgid "Enable automatic casting"
+msgstr "Activar el envío automático"
+
+msgctxt "#32014"
+msgid "Every video Kodi plays opens in LocalCast. Kodi must be restarted afterwards."
+msgstr "Cada vídeo que Kodi reproduce se abre en LocalCast. Después hay que reiniciar Kodi."
+
+msgctxt "#32015"
+msgid "Disable automatic casting"
+msgstr "Desactivar el envío automático"
+
+msgctxt "#32016"
+msgid "Removes the playercorefactory.xml written by LocalCast. Kodi must be restarted afterwards."
+msgstr "Elimina el archivo playercorefactory.xml escrito por LocalCast. Después hay que reiniciar Kodi."
+
+msgctxt "#32017"
+msgid "Status"
+msgstr "Estado"
+
+msgctxt "#32018"
+msgid "Shows whether automatic casting is on and where the configuration file lives."
+msgstr "Muestra si el envío automático está activado y dónde se encuentra el archivo de configuración."
+
+msgctxt "#32019"
+msgid "Help"
+msgstr "Ayuda"
+
+msgctxt "#32020"
+msgid "How the add-on works and what it needs."
+msgstr "Cómo funciona el complemento y qué necesita."
+
+# Dialogs and notifications
+
+msgctxt "#32031"
+msgid "A playercorefactory.xml that LocalCast did not write already exists. Replace it? A backup (.localcast.bak) is kept."
+msgstr "Ya existe un archivo playercorefactory.xml que no fue escrito por LocalCast. ¿Reemplazarlo? Se conserva una copia de seguridad (.localcast.bak)."
+
+msgctxt "#32032"
+msgid "Done. Kodi must be restarted for the change to apply. Close Kodi now? (Start it again from your launcher.)"
+msgstr "Listo. Hay que reiniciar Kodi para que el cambio surta efecto. ¿Cerrar Kodi ahora? (Vuelve a iniciarlo desde tu lanzador.)"
+
+msgctxt "#32033"
+msgid "Restart Kodi to apply"
+msgstr "Reinicia Kodi para aplicar el cambio"
+
+msgctxt "#32034"
+msgid "Automatic casting is already off"
+msgstr "El envío automático ya está desactivado"
+
+msgctxt "#32035"
+msgid "This playercorefactory.xml was not written by LocalCast; delete it with Kodi's file manager if you want it gone"
+msgstr "Este playercorefactory.xml no fue escrito por LocalCast; elimínalo con el administrador de archivos de Kodi si quieres deshacerte de él"
+
+msgctxt "#32036"
+msgid "A backup of the previous playercorefactory.xml (.localcast.bak) exists. Restore it?"
+msgstr "Existe una copia de seguridad del playercorefactory.xml anterior (.localcast.bak). ¿Restaurarla?"
+
+msgctxt "#32037"
+msgid "Automatic casting is on: every video Kodi plays opens in LocalCast."
+msgstr "El envío automático está activado: cada vídeo que Kodi reproduce se abre en LocalCast."
+
+msgctxt "#32038"
+msgid "Automatic casting is off: Kodi plays videos itself."
+msgstr "El envío automático está desactivado: Kodi reproduce los vídeos por sí mismo."
+
+msgctxt "#32039"
+msgid "A playercorefactory.xml that LocalCast did not write is in place. Automatic casting is not active."
+msgstr "Hay un playercorefactory.xml que no fue escrito por LocalCast. El envío automático no está activo."
+
+msgctxt "#32040"
+msgid "File: %s"
+msgstr "Archivo: %s"
+
+msgctxt "#32041"
+msgid "Automatic casting: every video Kodi plays opens in LocalCast, which casts it to your TV. Turn it on in the add-on settings; Kodi must be restarted once.[CR][CR]Context menu: open the context menu on a single video and choose \"Cast with LocalCast\" to send just that item.[CR][CR]Streams from Kodi add-ons (plugin://) can only be cast in automatic mode, because Kodi resolves them only while playing them itself.[CR][CR]Requires the LocalCast app from Google Play.[CR][CR]More at localcast.app/kodi"
+msgstr "Envío automático: cada vídeo que Kodi reproduce se abre en LocalCast, que lo envía a tu televisor. Actívalo en los ajustes del complemento; hay que reiniciar Kodi una vez.[CR][CR]Menú contextual: abre el menú contextual de un vídeo y elige «Enviar con LocalCast» para enviar solo ese elemento.[CR][CR]Las transmisiones de complementos de Kodi (plugin://) solo se pueden enviar en modo automático, porque Kodi solo las resuelve cuando las reproduce él mismo.[CR][CR]Requiere la aplicación LocalCast de Google Play.[CR][CR]Más información en localcast.app/kodi"
+
+msgctxt "#32042"
+msgid "Android only"
+msgstr "Solo disponible en Android"
+
+msgctxt "#32043"
+msgid "Nothing to cast"
+msgstr "Nada que enviar"
+
+msgctxt "#32044"
+msgid "This item comes from a Kodi add-on. Kodi only resolves such streams when it plays them itself, so turn on automatic casting (LocalCast add-on → Enable) to cast it."
+msgstr "Este elemento proviene de un complemento de Kodi. Kodi solo resuelve estas transmisiones cuando las reproduce él mismo, así que activa el envío automático (complemento LocalCast → Activar) para enviarlo."
+
+msgctxt "#32045"
+msgid "Sent to LocalCast"
+msgstr "Enviado a LocalCast"
+
+msgctxt "#32046"
+msgid "The LocalCast add-on ran into an error (%s). Details are in the Kodi log."
+msgstr "El complemento LocalCast ha encontrado un error (%s). Los detalles están en el registro de Kodi."
+
+msgctxt "#32047"
+msgid "Backup restored"
+msgstr "Copia de seguridad restaurada"
